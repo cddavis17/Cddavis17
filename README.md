@@ -8,5 +8,7 @@ CITC 1300 and WEBT 1320 Web Projects
 
 <li><a href="Lab3/index.html" target="_blank"> Lab 3 - Basic HTML and HTML Semantics</a></li>
 
+<li><a href="Lab4/index.html" target="_blank"> Lab 4 - Introduction to CSS</a></li>
+
 </ul>
 <h1>
