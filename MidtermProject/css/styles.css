@@ -18,7 +18,7 @@ a:hover {
     background-color: navajowhite;
     width: 75%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 20px 0px;
 }
 header{
     background-color: whitesmoke;
@@ -60,7 +60,7 @@ main img {
     width: 100%;
     height: 50%;
     margin: 15px auto;
-    padding: 15px;
+    padding: 0px 0px;
     border-radius: 20px;
     border: 4px solid white;
     box-shadow: 5px 15px 10px lightslategray;
