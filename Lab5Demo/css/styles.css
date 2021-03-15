@@ -1,0 +1,89 @@
+img {
+    max-width: 100%;
+}
+body {
+    background-color:coral;
+}
+/* Mobile View */
+#container {
+    margin: 10px;
+}
+main img {
+    border-radius: 20px;
+}
+header {
+    background-color: darksalmon;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+nav li{
+    display: block;
+}
+nav li a {
+    background-color: darkseagreen;
+    display: block;
+    margin: 5px 0px;
+    color: firebrick;
+    font-size: 1.5em;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+
+
+
+}
+nav li a:hover {
+    background-color: burlywood;
+    color:cyan;
+    text-shadow: none;
+}
+section, aside {
+    padding: 10px;
+
+}
+section {
+    background-color: darkorange;
+
+}
+section h1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: darkseagreen;
+    text-shadow: 2px 1px 3px black;
+}
+aside h2, aside h3 {
+    color: cornflowerblue;
+    text-align: center;
+    text-shadow: 1px 1px .5px black;
+}
+aside {
+    background-color: darkseagreen;
+    margin-top: 10px;
+}
+aside hr {
+    border-color: darkorange;
+}
+footer {
+    background-color: darkorange;
+    padding: 40px 0;
+    text-align: center;
+    color: firebrick;
+    text-shadow: 2 2 1 black;
+}
+
+/* Tablet View */
+@media screen and (min-width: 760px) {
+    body {
+        background-color: darkorange;
+    }
+    main img {
+        border-radius: 0px;
+    }
+}
