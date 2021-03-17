@@ -1,0 +1,59 @@
+/* Global Variables */
+body {
+    background-color:darksalmon;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: mediumblue;
+    text-decoration: none;
+}
+a:hover {
+    color: skyblue;
+    text-decoration: none;
+}
+/* Mobile Styles */
+header {
+    background-color: seashell;
+    padding: 40px 0;
+    text-align: center;
+}
+nav {
+    background-color: seashell;
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    padding: 15px 0px;
+    border-top: 1px solid lightsalmon;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav ul a:hover {
+    background-color: firebrick;
+}
+main {
+    background-color: seashell;
+    padding: 20px 0px;
+    margin: 10px;
+}
+footer {
+    background-color: seashell;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
