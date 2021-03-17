@@ -12,6 +12,8 @@ CITC 1300 and WEBT 1320 Web Projects
 
 <li><a href="MidtermProject/index.html" target="_blank"> Midterm Project - The Witcher III</a></li>
 
+<li><a href="Lab5/index.html" target="_blank"> Lab 5 - Fitness and Health</a></li>
+
 
 </ul>
 <h1>
