@@ -1,0 +1,139 @@
+/* Global Variables */
+body {
+    background-color:darksalmon;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: mediumblue;
+    text-decoration: none;
+}
+a:hover {
+    color: skyblue;
+    text-decoration: none;
+}
+/* Mobile Styles */
+header {
+    background-color: seashell;
+    padding: 40px 0;
+    text-align: center;
+}
+nav {
+    background-color: seashell;
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    padding: 15px 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav ul a:hover {
+    background-color: firebrick;
+}
+main {
+    background-color: seashell;
+    padding: 20px 0px;
+    margin: 10px;
+}
+footer {
+    background-color: seashell;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.desktop {
+    display: none;
+}
+/* Tablet styles */
+@media only screen and (min-width: 768px) {
+    header {
+        background-image: url('../images/pfgym.jpg') ;
+        background-size: cover;
+        background-position: center center;
+        padding: 40px 0;
+        margin-bottom: 20px;
+    }
+    header h1 {
+        color: seashell;
+        text-shadow: 2px 3px 2px black;
+        font-size: 2em;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        padding: 10px 30px;
+    }
+    main {
+        display: flex;
+    }
+    section, aside {
+        border: 3px solid firebrick;
+        padding: 20px 10px;
+        margin: 10x;
+    }
+    section {
+        width: 70%;
+    }
+    aside {
+        width: 30%;
+    }
+    .tab_mobile {
+        display: block;
+    }
+    
+    
+
+}
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+    header {
+        background-image: url('../images/weightrack.jpg');
+        padding: 150px 0px;
+        background-size: cover;
+        background-position: center center;
+    }
+    header h1 {
+        font-size: 80px;
+    }
+    nav li a {
+        font-size: 30px;
+        padding: 20px 75px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid navajowhite;
+    }
+    .desktop {
+        display: block;
+    }
+    .tab_mobile {
+        display: none;
+    }
+    .active {
+        background-color: salmon;
+    }
+    main img {
+        border-radius: 20px;
+        border: 4px solid lightsalmon;
+    }
+}
+

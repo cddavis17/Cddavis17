@@ -14,6 +14,8 @@ CITC 1300 and WEBT 1320 Web Projects
 
 <li><a href="Lab5/index.html" target="_blank"> Lab 5 - Fitness and Health</a></li>
 
+<li><a href="Lab6/index.html" target="_blank"> Lab 6 - Fitness and Health Expanded</a></li>
+
 
 </ul>
 <h1>
