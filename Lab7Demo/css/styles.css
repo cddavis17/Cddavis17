@@ -1,0 +1,72 @@
+body {
+    background-color: cornflowerblue;
+}
+audio, video, table {
+    max-width: 100%;
+}
+/* Mobile Styles */
+header {
+    background-image: url('../images/fitnesspulldown.jpg');
+    background-size: cover;
+    height: 250px;
+    padding: 10px;
+}
+header h1 {
+    line-height: 200px;
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 2px 2px 2px solid black;
+}
+nav {
+    padding: 1px 0px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    background-color: firebrick;
+    padding: 15px;
+    margin-top: 2px;
+    color: mediumturquoise;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: yellow;
+}
+section {
+    background-color: mediumaquamarine;
+    padding: 20px;
+    margin: 5px 0px;
+}
+section h2, section h3 {
+    color: mediumslateblue;
+    text-align: center;
+}
+audio {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border: 2px solid black;
+}
+tr, th, td {
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: turquoise;
+    text-align: center;
+    color: black;
+    padding: 20px 0px;
+}
+
