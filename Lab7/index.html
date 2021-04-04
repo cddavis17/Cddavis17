@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 7 - Audio, Video and Table</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-color: lightsteelblue;
+        }
+        h2,h3 {
+            text-align: center;
+            font-size: 2em;
+        }
+        video,audio {
+            display: block;
+            margin: 20px auto;
+            width: 75%;
+        }
+        audio {
+            padding: 15px;
+        }
+       
+        header {
+            background-color: snow;
+            padding: 45px 0px;
+        }
+        header h1 {
+            font-size: 3em;
+            text-align: center;
+        }
+        main {
+            background-color: snow;
+            padding: 20px;
+            margin: 10px;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 75%;
+            height: 750px;
+            padding: 20px;
+            margin: auto;
+        }
+        footer {
+            background-color: snow;
+            padding: 30px 0px;
+            text-align: center;
+        }
+        table {
+            border: 4px solid black;
+            width: 100%;
+        }
+        tr, td, th {
+            border: 4px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Cat Related Video and Images, Random Audio and a Table</h1>
+    </header>
+
+    <main>
+        <h2>Welcome To My Cat Related and Otherwise Random Page</h2>
+
+        <p>The first of the following videos is one that shows the interesting nature of a cats eye. They have an intriguing shape and an almost mesmerizing effect if you stare into them.</p>
+
+        <p>The second of the following videos is a cute video of a precious little kitten taking a nap and stretching. Cats are almost always cute, but especially so when they're little.</p> 
+
+        <p>There are also two very chill audio tracks just below the videos. I recommend you listen to them if you need some tranquility. Be careful not to click on the one at the very bottom of the screen though, that song is a little too intense for my taste at least.</p>
+        <p>I've also included two pictures of my own cute kitty cat before the table, videos and audio. She's a sweet, cute and smart cat. I love my Meeka cat.</p>
+        
+        <img src="images/Meeka_cat.jpg" alt="Meeka Kitty">
+        <img src="images/Meeka_cat2.jpg" alt="Meeka Kitty 2">
+
+        <h3>Cat Breed Table</h3>
+        <table>
+            <tr>
+                <th>Cat Breeds</th>
+                <th>In</th>
+                <th>Alphabetical</th>
+                <th>Order</th>
+            </tr>
+            <tr>
+                <td>Abyssinian</td>
+                <td>American Bobtail</td>
+                <td>American Curl</td>
+                <td>American Shorthair</td>
+            </tr>
+            <tr>
+                <td>Balinese</td>
+                <td>Bengal</td>
+                <td>Birman</td>
+                <td>Bombay</td>
+            </tr>
+            <tr>
+                <td>Chartreux</td>
+                <td>Chausie</td>
+                <td>Cornish Rex</td>
+                <td>Cymric</td>
+            </tr>
+        </table>
+
+        <h3>Videos</h3>
+        <video controls> <source src="video/Cateye.mp4" type="video/mp4"></video>
+
+        <video controls> <source src="video/Cat_Video.mp4" type="video/mp4"></video>
+
+        <h3>Audio</h3>
+        <audio controls> <source src="audio/waterfall_music.mp3" type="audio/mp3"></audio>
+        <audio controls> <source src="audio/chill_music.mp3" type="audio/mp3"></audio>
+        <h3>Embedded Audio and Video</h3>
+        <iframe width="100" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    <footer>&copy; 2021 Lab 7 - Audio, Video and Table</footer>
+
+</body>
+</html>
