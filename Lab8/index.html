@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8 - Introduction to Jquery</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+            $( "#tabs" ).tabs();
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Welcome to The Elder Scrolls Universe</h1>
+        </header>
+        <div id="midsection">
+
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <p>The Elder Scrolls universe is a complex and beautiful one, with deep lore and a highly detailed in universe history. There are very many various factions, races and creatures that inhabit the world of Nirn. The games mostly focus on events and stories occurring on the main and largest continent of the planet Nirn, Tamriel. Below is an image that shows the main sentient and playable races in Tamriel.</p>
+                <img src="images/esraces.jpg" alt="The races of The Elder Scrolls">
+                <p>Each race of Tamriel has its own advantages and disadvantages compared to each other. For example, Altmer (AKA "High Elves") have a distinct advantage in their magical ability compared to the other races, although destruction is not their forte. Bretons, who are ancestrally half human and half altmer, also have an advantage in certain schools of magic over other races. However, each advantage comes with a disadvantage; Bretons and Altmer are physically weaker on average compare to Nords or Orcs.</p>
+
+            </section>
+            <section>
+                <p>Tamriel is a large and varying continent which is home not only to the diverse spread of sentient races, but also to an even more diverse selection of non sentient, undead and daedric creatures. There are nine regions in Tamriel. In no particular order, these are: High Rock, Hammerfell, Skyrim, Cyrodiil, Morrowind, The Summerset Isles, Valenwood, Elsweyr, and Black Marsh. The map of these regions is posted below. Each of these regions is home to one of the races shown above. Skyrim is home to the Nords, High Rock is home to the Bretons, Elsweyr home to the Khajiit and so on.</p>
+                <img src="images/tamrielmap.png" alt="Map of Tamriel">
+            </section>
+            <div id="accordion">
+                <h3>Section 1</h3>
+                <div>
+                  <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati labore aperiam saepe, deleniti qui sint voluptates nisi consequatur corporis voluptatibus? Officiis repudiandae odio totam? Esse mollitia voluptatibus labore harum.
+                  </p>
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                  <p>
+                  Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                  purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                  velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                  suscipit faucibus urna.
+                  </p>
+                </div>
+                <h3>Section 3</h3>
+                <div>
+                  <p>
+                  Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                  Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                  ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                  lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                  </p>
+                  <ul>
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                  </ul>
+                </div>
+                <h3>Section 4</h3>
+                <div>
+                  <p>
+                  Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                  et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                  faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                  mauris vel est.
+                  </p>
+                  <p>
+                  Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                  inceptos himenaeos.
+                  </p>
+                </div>
+              </div>
+              <p>
+
+              </p>
+              <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1">Nunc tincidunt</a></li>
+                  <li><a href="#tabs-2">Proin dolor</a></li>
+                  <li><a href="#tabs-3">Aenean lacinia</a></li>
+                </ul>
+                <div id="tabs-1">
+                  <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+                </div>
+                <div id="tabs-2">
+                  <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                </div>
+                <div id="tabs-3">
+                  <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                  <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                </div>
+              </div>
+            <footer>&copy;2021 Lab 8 - Introduction to Jquery</footer>
+        </main>
+   </div>
+</body>
+</html>

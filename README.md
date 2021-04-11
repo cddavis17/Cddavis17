@@ -18,5 +18,7 @@ CITC 1300 and WEBT 1320 Web Projects
 
 <li><a href="Lab7/index.html" target="_blank"> Lab 7 - Audio, Video and Table</a></li>
 
+<li><a href="Lab8/index.html" target="_blank"> Lab 8 - Introduction to Jquery</a></li>
+
 </ul>
 <h1>

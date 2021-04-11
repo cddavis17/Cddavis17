@@ -1,0 +1,122 @@
+header h1 {
+    background-image:url(../images/es6title.jpg);
+    padding: 75px 40px;
+    background-color: steelblue;
+    
+}
+header h1 background-image {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+header h1 {
+    text-align: center;
+}
+main {
+    padding: 20px 20px;
+    margin: 10px 10px;
+    background-color: lightsteelblue;
+}
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+#menu {
+    display: none;
+}
+footer {
+    background-color: lightsteelblue;
+    padding: 20px 20px;
+    margin: 10px 10px;
+}
+nav {
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul {
+    padding: 0px;
+    list-style-type: none;
+}
+nav li {
+    list-style-type: none;
+    display: block;
+}
+nav li a {
+    display: block;
+    background-color: lightsteelblue;
+    padding: 15px 0px;
+    margin: 20px 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav ul a:hover {
+    background-color: lightskyblue;
+}
+main header h2 {
+    background-image: url(../images/highrockconceptart.jpg);
+    padding: 80px 80px;
+    text-align: center;
+    color: lightcyan;
+}
+
+
+/* Tablet styles */
+@media only screen and (min-width: 768px){
+    #menu{
+        display: block;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        display: inline-block;
+        border-radius: 40px 40px 20px 20px;
+        padding: 20px;
+        margin: 10px 15px;
+    }
+    main img {
+        background-position: center center;
+        padding: 20px 10px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .slicknav_menu {
+        display: none;
+    }
+
+}
+/* Desktop styles*/
+@media only screen and (min-width: 1024px) {
+    #menu {
+        display: none;
+    }
+    main img {
+        display: block;
+        width: 75%;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    div img {
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        width: 50%;
+        background-size: cover;
+        background-position: center center;
+    }
+
+}
