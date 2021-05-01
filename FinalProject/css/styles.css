@@ -15,14 +15,11 @@ img, div img {
     width: 50%;
     border-radius: 10px;
     border: 2px solid navajowhite;
-    box-shadow: 4x 4px 2px solid black;
+    box-shadow: 4px 4px 2px black;
 }
 head, body, footer {
     background-image: url(../images/esobeautifullandscape.jpg);
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 section, aside {
@@ -62,7 +59,7 @@ div img {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    background-position: cover;
+
 }
 section h2 {
     display: block;
@@ -117,13 +114,13 @@ header h1 {
     padding: 20px 20px;
     margin: 20px;
     text-align: center;
-    text-shadow: 2px 2px 3px solid black;
+    text-shadow: 2px 2px black;
 }
 iframe {
     background-position: center center;
     padding: 20px;
-    margin-left: auto, center;
-    margin-right: auto, center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
