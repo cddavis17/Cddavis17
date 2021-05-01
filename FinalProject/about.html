@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project - Elder Scrolls Expanded</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="SlickNav/dist/jquery.slicknav.min.js"></script>
+    <link rel="stylesheet" href="css/slicknav.css">
+    <script src="css/jquery.slicknav.min.js"></script>
+    <link rel="stylesheet" href="SlickNav/dist/slicknav.min.css" />
+    <script src="SlickNav/dist/jquery.slicknav.min.js"></script>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+    integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/Talos_Stained_Glass_Circle.png"/>
+    
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#tabs" ).tabs();
+        });
+    </script>
+    <style>
+        nav ul {
+            font-family: 'Play', sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome Back to The Elder Scrolls Universe</h1>
+    </header>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html ">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="daedra.html">Daedra</a></li>
+            <li><a href="aedra.html">Aedra</a></li>
+        </ul>
+        <div class="row">
+        <div class="column">
+    <main>
+       <section>
+           <h2>Welcome to The Elder Scrolls About Page!</h2>
+           <p>The purpose of this page is to list and talk about The Elder Scrolls games in the order that they were released. This is an out of universe page that discusses the themes of the games and how they play. My opinion on the games is somewhat biased towards the newer, more modern and accessible games over the old style. On the side is the list of the games in chronological order.</p>
+       </section>
+       
+       <aside>
+        <ul>
+            <li>The Elder Scrolls: Arena (1994)</li>
+            <li>The Elder Scrolls II: Daggerfall (1996)</li>
+            <li>An Elder Scrolls Legend: Battlespire (1997)</li>
+            <li>The Elder Scrolls Adventure: Redguard (1998)</li>
+            <li>The Elder Scrolls III: Morrowind (2002)</li>
+            <li>The Elder Scrolls IV: Oblivion (2006)</li>
+            <li>The Elder Scrolls V: Skyrim (2011)</li>
+            <li>The Elder Scrolls Online (2014)</li>
+            <li>The Elder Scrolls: Blades (2019)</li>
+        </ul>
+    </div>
+       </aside>
+       <div id="column">
+       <aside>
+           <p>Below I will post the box and cover art for each game in chronological order.</p>
+           <div id="boxarts">
+           <ol>
+           <li><img src="images/arenaboxart.jpg" alt="Arena"></li>
+           <li><img src="images/Daggerfall_Cover.png" alt="Daggerfall"></li>
+           <li><img src="images/battlespireboxart.jpg" alt="Battlespire"></li>
+           <li><img src="images/redguardboxart.jpg" alt="Redguard"></li>
+           <li><img src="images/morrowindboxart.jpg" alt="Morrowind"></li>
+           <li><img src="images/oblivion_coverart.png" alt="Oblivion"></li>
+           <li><img src="images/skyrimboxart.png" alt="Skyrim"></li>
+           <li><img src="images/Esotuboxart.png" alt="ESO"></li>
+        </div>
+       </ol>
+       <audio controls> <source src="audio/2019-07-29_-_Elven_Forest_-_FesliyanStudios.com_-_David_Renda.mp3" type="audio/mp3"></audio>
+       </aside>
+    </div>
+    
+    
+    </div>
+    </div>
+</main>
+        <footer>&copy; 2021 Final Project - Elder Scrolls Expanded</footer>
+    </nav>
+    
+</body>
+</html>

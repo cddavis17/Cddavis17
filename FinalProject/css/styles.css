@@ -1,11 +1,17 @@
-header h1, section h2, p {
+header h1, section h2, p, footer, main h2, aside h2, table, aside ol, ul {
     font-family: 'Play', sans-serif;
     color: whitesmoke;
 }
-img {
+main h2 {
+    display: block;
+    text-align: center;
+}
+img, div img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
     width: 50%;
     border-radius: 10px;
     border: 2px solid navajowhite;
@@ -22,3 +28,161 @@ head, body, footer {
 section, aside {
     padding: 20px 20px;
 }
+.slicknav_menu {
+    display: block;
+}
+header h1 {
+    display: block;
+    text-align: center;
+    font-size: 3.5em;
+    padding: 10px 10px;
+}
+nav ul {
+    padding: 10px 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px;
+    font-weight: bold;
+    color:mediumslateblue;
+}
+nav li a:hover {
+    background-color: skyblue;
+}
+div img {
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-position: cover;
+}
+section h2 {
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+section, aside {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 4px solid lightslategrey;
+}
+main p {
+    padding: 20px 10px;
+    margin: 10px 10px;
+}
+h1, h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.slider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+div p {
+    color: black;
+    text-align: center;
+}
+section p, aside p {
+    font-family: 'Play', sans-serif;
+    color: whitesmoke;
+}
+table {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+table tr, table td {
+    border: 2px solid lightslategray;
+}
+header h1 {
+    display: block;
+    padding: 20px 20px;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 3px solid black;
+}
+iframe {
+    background-position: center center;
+    padding: 20px;
+    margin-left: auto, center;
+    margin-right: auto, center;
+
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Phone Styles */
+@media only screen and (min-width: 425px){
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+.slicknav_menu {
+    display: none;
+}
+#menu {
+    display: block;
+}
+.active {
+    background-color: lightsteelblue;
+    border-radius: 20px 20px 20px 20px;
+}
+table {
+    display: block;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    
+}
+aside ol li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 10px;
+    margin: 10px 10px;
+}
+}
+/* Stacking columns on top of each other at less than 600px */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
