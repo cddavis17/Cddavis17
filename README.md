@@ -20,5 +20,7 @@ CITC 1300 and WEBT 1320 Web Projects
 
 <li><a href="Lab8/index.html" target="_blank"> Lab 8 - Introduction to Jquery</a></li>
 
+<li> <a href="FinalProject/index.html" target="_blank"> Final Project - Elder Scrolls Expanded</a></li>
+
 </ul>
 <h1>
